@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMD AI</title>
+    <link rel="icon" href="/assets/pmdcircle.png" type="image/x-icon"> <!-- Link to favicon -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnujs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="title">PMD</div>
+        <button id="switchBotButton" class="switch-button">
+            <i class="fas fa-robot mr-2"></i> Ganti Bot AI
+        </button>
+    </header>
+    <main class="main-content">
+        <div id="messages" class="messages">
+            <!-- Messages will appear here -->
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Message PMD" class="input-field">
+            <button id="sendButton" class="send-button">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+            <button id="toggleRecording" class="record-button">
+                <i class="fa fa-microphone"></i>
+            </button>
+        </div>
+        <p class="footer-note">Copyright 2023-2024 by PrimaDev.</p>
+    </footer>
+
+    <div id="botSwitchPopup" class="popup hidden">
+        <div class="popup-content">
+            <h2 id="popupMessage" class="popup-message">Apakah Anda ingin mengganti ke PMD AI 2.0?</h2>
+            <button id="changeButton" class="change-button">Ganti</button>
+        </div>
+    </div>
+    <script src="script.min.js"></script> <!-- Link ke file JavaScript -->
+</body>
+</html>

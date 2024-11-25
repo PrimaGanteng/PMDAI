@@ -1,0 +1,26 @@
+{
+    "name": "ai-tes",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@google-cloud/speech": "^6.7.0",
+        "@vercel/speed-insights": "^1.1.0",
+        "axios": "^0.28.1",
+        "body-parser": "^1.x.x",
+        "cors": "^2.8.5",
+        "crypto-js": "^4.2.0",
+        "express": "^4.21.1",
+        "express-session": "^1.18.1",
+        "multer": "^1.4.5-lts.1"
+    },
+    "devDependencies": {
+        "terser": "^5.36.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
